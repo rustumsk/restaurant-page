@@ -1,0 +1,39 @@
+:root{
+    --primary-color: #1c1917; /*stone like color */
+    --secondary-color: #f59e0b;
+    --third-color: #d4d4d4;
+}
+body{
+    background-color: var(--primary-color);
+    height: 100vh;
+    margin: 0;
+}
+header{
+    height: 5rem;
+}
+nav{
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+nav button{
+    flex: auto;
+    max-width: 5rem;
+    max-height: 2rem;
+    border-radius: 14px;
+    color: var(--third-color);
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    font-family: 'Courier New', Courier, monospace;
+}
+nav button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    border-bottom: solid var(--third-color) 4px;
+}
