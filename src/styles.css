@@ -1,14 +1,81 @@
+@font-face {
+    font-family: 'rich';
+    src: url(./fonts/TheiPersonalUse-2O2BK.otf);
+}
 :root{
     --primary-color: #1c1917; /*stone like color */
     --secondary-color: #f59e0b;
+    --fourth-color: #fef08a;
     --third-color: #d4d4d4;
 }
 body{
     background-color: var(--primary-color);
+    background-image: url(./pics/cover.png);
+    background-size: 20rem;
     height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+#content{
+    flex: 6;
+    background-color: var(--primary-color);
+    align-self: center;
+    min-width: 80rem;
+    min-height: 70rem;
+    display: flex;
+    flex-direction: column;
+    border: solid 4px var(--fourth-color);
+    border-radius: 2rem;
+}
+.h-1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.h-1 div{
+    font-family: 'rich';
+    color: var(--fourth-color);
+    font-size: 4rem;
+}
+.h-2{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}
+.main-c{
+    flex: 1;
+    max-width: 35rem;
+    background-color: var(--fourth-color);
+    border: solid var(--third-color) 6px;
+    border-radius: 2rem;
+}
+.c-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+    height: 22rem;
+    font-size: 1.8rem;
+    color: black;
+    font-family: 'monospaced';
+}
+.auth{
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+.h-3{
+    flex: 2;
+}
+.h-4{
+    flex: 2;
+}
+.footer{
+    flex: 1;
 }
 header{
+    flex: 1;
     height: 5rem;
 }
 nav{
