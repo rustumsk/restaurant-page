@@ -47,8 +47,8 @@ body{
 .main-c{
     flex: 1;
     max-width: 35rem;
-    background-color: var(--fourth-color);
-    border: solid var(--third-color) 6px;
+    background-color: var(--third-color);
+    border: solid var(--fourth-color) 6px;
     border-radius: 2rem;
 }
 .c-1{
@@ -67,9 +67,68 @@ body{
 }
 .h-3{
     flex: 2;
+    display: flex;
+    justify-content: center;
+}
+.g-c{
+    min-width: 50rem;
+    max-height: 8rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 8px;
+    grid-template-rows: 1fr 1fr;
+}
+.g-c div{
+    border: solid 2px var(--fourth-color);
+    background-color: black;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+.g-c p{
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+.day{
+    padding-top: 10px;
+    font-family: 'rich';
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--fourth-color);
+}
+.sunday{
+    grid-column: 1/4;
 }
 .h-4{
     flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address{
+    flex: 1;
+    max-height: 8rem;
+    height: 100%;
+    max-width: 40rem;
+    border: solid 4px var(--fourth-color);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address div{
+    height: 5rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.address div p{
+    margin: 0;
 }
 .footer{
     flex: 1;
