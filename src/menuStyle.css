@@ -1,0 +1,163 @@
+:root{
+    --primary-color: #1c1917; /*stone like color */
+    --secondary-color: #f59e0b;
+    --fourth-color: #fef08a;
+    --third-color: #d4d4d4;
+}
+.border{
+    border-left: solid .4rem var(--third-color);
+    border-right: solid .3rem var(--third-color);
+}
+.last-b{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.m-title{
+    background-color: black;
+    flex: .8;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./pics/steak.webp");
+    background-size:20rem;
+    background-position: 10%;
+}
+.mL{
+    flex: auto;
+    max-width: 15rem;
+    min-height: 4rem;
+    color: var(--fourth-color);
+    font-weight: 50%;
+    text-align: center;
+    font-family: 'rich';
+    font-size: 8rem;
+}
+.a-title{
+    flex: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aL{
+    flex: auto;
+    max-width: 15rem;
+    min-height: 4rem;
+    color: white;
+    font-weight: 50%;
+    text-align: center;
+    font-family: 'rich';
+    font-size: 5rem;
+}
+.appetizers{
+    flex: 1;
+    display: flex;
+    background-color: black;
+}
+.appe{
+    flex: 1;
+    border: solid 2px var(--fourth-color);
+}
+.a1{
+    background-image: url(./pics/a-mushroom-removebg-preview.png);
+}
+.a2{
+    background-image: url(./pics/deviled-removebg-preview.png);
+}
+.a3{
+    background-image: url(./pics/bac-removebg-preview.png);
+    background-size: cover;
+}
+.a4{
+    background-image: url(./pics/ca-removebg-preview.png);
+    background-size: cover;
+}
+.main-title{
+    flex: 1;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m{
+    flex: auto;
+    max-width: 25rem;
+    min-height: 4rem;
+    color: var(--fourth-color);
+    font-weight: 50%;
+    text-align: center;
+    font-family: 'rich';
+    font-size: 5rem;
+}
+.main-course{
+    flex: 1;
+    display: flex;
+    background-color: maroon;
+}
+.main{
+    flex: 1;
+}
+.steak{
+    background-image: url(./pics/steak-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 35rem 13rem;
+    background-position: center;
+    border: solid 2px var(--secondary-color);
+}
+.pasta{
+    background-image: url(./pics/pasta-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 35rem 13rem;
+    background-position: center;
+    border: solid 2px var(--secondary-color);
+}
+.d-title{
+    flex: 1;
+    background-color: var(--third-color);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad{
+    flex: auto;
+    max-width: 15rem;
+    min-height: 4rem;
+    color: black;
+    font-weight: 50%;
+    text-align: center;
+    font-family: 'rich';
+    font-size: 5rem;
+}
+.dessert{
+    flex: 1;
+    display: flex;
+    background-color: var(--third-color);
+}
+.des{
+    flex: 1;
+    border: solid 3px var(--fourth-color);
+    border-radius: 2rem;
+}
+.ice{
+    background-image: url(./pics/ice-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+.pana{
+    background-image: url(./pics/Panna-cotta-with-agar-agar-7-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+.moch{
+    background-image: url(./pics/moch-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+.cake{
+    background-image: url(./pics/cake-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
