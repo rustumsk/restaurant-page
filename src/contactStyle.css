@@ -1,0 +1,103 @@
+:root{
+    --primary-color: #1c1917; /*stone like color */
+    --secondary-color: #f59e0b;
+    --fourth-color: #fef08a;
+    --third-color: #d4d4d4;
+}
+.profiles{
+    flex:1;
+    width: 80%;
+    max-height: 80%;
+    align-self: center;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.chefs{
+    flex: 1;
+    display: flex;
+}
+.chef{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.tit{
+    flex: .5;
+    display: flex;
+    justify-content: center;
+}
+.c-t{
+    color: white;
+    font-size: 2rem;
+}
+.pic{
+    flex: 1;
+    border: solid 4px var(--fourth-color);
+    max-width: 50%;
+    margin-left: 8rem;
+    background-image: url(./pics/profile.png);
+}
+.con{
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+}
+.con div{
+    flex: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.con div span{
+    flex: auto;
+    max-width: 50%;
+    color: white;
+    font-size: 1.3rem;
+}
+.house{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.inquiry{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-container{
+    flex: 1;
+    max-width: 50%;
+    max-height: 80%;
+    height: 100%;
+    border: solid 4px var(--fourth-color);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.i-title{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.i-title span{
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 5px;
+    color: white;
+}
+.i-content{
+    flex: 2;
+    display: flex;
+}
+.i-content div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.i-content div p{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
